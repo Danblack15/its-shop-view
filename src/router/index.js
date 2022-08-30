@@ -5,12 +5,12 @@ import NotFoundPage from '@/views/NotFoundPage/NotFoundPage'
 
 const routes = [
   {
-    path: '/',
+    path: '/its-shop-view/',
     name: 'home',
     component: ProductsPage
   },
   {
-    path: '/:pathMatch(.*)*',
+    path: '/its-shop-view/:pathMatch(.*)*',
     name: 'not-found',
     component: NotFoundPage
   }
