@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: '/its-shop-view/'
+  publicPath: 'its-shop-view'
 }
